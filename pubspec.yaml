@@ -1,0 +1,37 @@
+name: vaultix
+description: "Secure password manager app."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Theme & fonts
+  google_fonts: ^6.2.1
+
+  # Storage & encryption
+  shared_preferences: ^2.3.5
+  flutter_secure_storage: ^9.2.4
+  cryptography: ^2.7.0
+
+  # SQLite (needed for sqflite_common_ffi on desktop)
+  sqflite_common_ffi: ^2.3.4+4
+
+  # Localization
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  generate: true

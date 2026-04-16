@@ -1,0 +1,33 @@
+{
+  "@@locale": "vi",
+  "pmTitle": "Quản lý mật khẩu",
+  "pmAddAccount": "Thêm tài khoản",
+  "pmSiteName": "Trang / Ứng dụng",
+  "pmUsername": "Tên đăng nhập",
+  "pmPassword": "Mật khẩu",
+  "pmSave": "Lưu",
+  "pmCancel": "Hủy",
+  "pmDelete": "Xóa",
+  "pmEmptyHint": "Chưa có tài khoản nào. Nhấn + để thêm.",
+  "pmMasterTitle": "Kho mật khẩu",
+  "pmMasterNewHeader": "Tạo mật khẩu chính",
+  "pmMasterUnlockHeader": "Mở khoá kho lưu trữ",
+  "pmMasterHint": "Mật khẩu chính",
+  "pmMasterConfirmHint": "Xác nhận mật khẩu",
+  "pmMasterCreate": "Tạo kho lưu trữ",
+  "pmMasterUnlock": "Mở khoá",
+  "pmMasterMismatch": "Mật khẩu không khớp",
+  "pmMasterWrong": "Sai mật khẩu chính",
+  "pmMasterTooShort": "Phải có ít nhất 8 ký tự",
+  "pmLockedOut": "Nhập sai quá nhiều lần. Thử lại sau {seconds}s.",
+  "pmEncryptionInfo": "Mật khẩu của bạn được mã hóa bằng AES-256-GCM.\nKhóa được tạo từ Argon2id — chỉ bạn mới có thể mở khóa.",
+  "copiedToClipboard": "Đã sao chép!",
+  "cancel": "Hủy",
+  "@cancel": {
+    "description": "Generic cancel button label"
+  },
+  "save": "Lưu",
+  "@save": {
+    "description": "Generic save button label"
+  }
+}

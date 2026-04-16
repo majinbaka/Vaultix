@@ -1,0 +1,104 @@
+{
+  "@@locale": "en",
+  "pmTitle": "Password Manager",
+  "@pmTitle": {
+    "description": "Password manager screen title"
+  },
+  "pmAddAccount": "Add Account",
+  "@pmAddAccount": {
+    "description": "Button to add a new account"
+  },
+  "pmSiteName": "Site / App",
+  "@pmSiteName": {
+    "description": "Field label: site or app name"
+  },
+  "pmUsername": "Username",
+  "@pmUsername": {
+    "description": "Field label: username"
+  },
+  "pmPassword": "Password",
+  "@pmPassword": {
+    "description": "Field label: password"
+  },
+  "pmSave": "Save",
+  "@pmSave": {
+    "description": "Button to save an account"
+  },
+  "pmCancel": "Cancel",
+  "@pmCancel": {
+    "description": "Button to cancel"
+  },
+  "pmDelete": "Delete",
+  "@pmDelete": {
+    "description": "Button to delete an account"
+  },
+  "pmEmptyHint": "No accounts yet. Tap + to add one.",
+  "@pmEmptyHint": {
+    "description": "Empty state hint for password manager"
+  },
+  "pmMasterTitle": "Password Vault",
+  "@pmMasterTitle": {
+    "description": "Master password screen title"
+  },
+  "pmMasterNewHeader": "Create Master Password",
+  "@pmMasterNewHeader": {
+    "description": "Header when creating a new vault"
+  },
+  "pmMasterUnlockHeader": "Unlock Vault",
+  "@pmMasterUnlockHeader": {
+    "description": "Header when unlocking existing vault"
+  },
+  "pmMasterHint": "Master password",
+  "@pmMasterHint": {
+    "description": "Master password field hint"
+  },
+  "pmMasterConfirmHint": "Confirm password",
+  "@pmMasterConfirmHint": {
+    "description": "Confirm password field hint"
+  },
+  "pmMasterCreate": "Create Vault",
+  "@pmMasterCreate": {
+    "description": "Button to create the vault"
+  },
+  "pmMasterUnlock": "Unlock",
+  "@pmMasterUnlock": {
+    "description": "Button to unlock the vault"
+  },
+  "pmMasterMismatch": "Passwords do not match",
+  "@pmMasterMismatch": {
+    "description": "Validation: passwords mismatch"
+  },
+  "pmMasterWrong": "Wrong master password",
+  "@pmMasterWrong": {
+    "description": "Error when wrong password entered"
+  },
+  "pmMasterTooShort": "Must be at least 8 characters",
+  "@pmMasterTooShort": {
+    "description": "Validation: password too short"
+  },
+  "pmLockedOut": "Too many failed attempts. Try again in {seconds}s.",
+  "@pmLockedOut": {
+    "description": "Error shown during brute-force lockout with countdown",
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "pmEncryptionInfo": "Your passwords are encrypted with AES-256-GCM.\nThe key is derived with Argon2id — only you can unlock them.",
+  "@pmEncryptionInfo": {
+    "description": "Security description on the master password screen"
+  },
+  "copiedToClipboard": "Copied!",
+  "@copiedToClipboard": {
+    "description": "Snackbar message when password is copied to clipboard"
+  },
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Generic cancel button label"
+  },
+  "save": "Save",
+  "@save": {
+    "description": "Generic save button label"
+  }
+}
